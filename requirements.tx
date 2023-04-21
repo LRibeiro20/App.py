@@ -1,1 +1,2 @@
 flask
+chatterbot==1.0.3
