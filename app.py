@@ -3,6 +3,9 @@ import bot
 from flask_cors import CORS
 
 app = Flask(__name__)
+@app.route('/')
+def wa_hello():
+    return "Hello, World!"
 CORS(app) 
 
 @app.route('/chatbot', methods=['POST'])
